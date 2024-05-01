@@ -1,8 +1,8 @@
 # [v4-by-example](https://v4-by-example.org)
 
-Solidity snippets for all things Uniswap v4
+Solidity snippets for all things Ajna
 
-*largely inspired by [solidity-by-example](https://solidity-by-example.org)*
+*largely inspired by [solidity-by-example](https://solidity-by-example.org) & [v4-by-example](https://www.v4-by-example.org/)*
 
 ---
 
@@ -24,7 +24,7 @@ The project is welcoming all contributions. Please try to limit PRs to:
 Requires [node 18](https://nodejs.org/en/download)
 
 ```bash
-git clone git@github.com:uniswapfoundation/v4-by-example.git
+git clone git@github.com:ajna-finance/ajna-by-example.git
 
 npm i
 npm start

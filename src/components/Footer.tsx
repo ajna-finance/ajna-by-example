@@ -37,12 +37,12 @@ function Footer() {
         </div>
       </div> */}
       <div className={styles.row}>
-        <a href="https://github.com/ithharvey/ajna-by-example" target="__blank">
+        <a href="https://github.com/ajna-finance/ajna-by-example" target="__blank">
           source
         </a>
         <div className={styles.bar}>|</div>
         <a
-          href="https://github.com/uniswapfoundation/v4-by-example/blob/gh-pages/LICENSE"
+          href="https://github.com/ajna-finance/ajna-by-example/blob/gh-pages/LICENSE"
           target="__blank"
         >
           license
