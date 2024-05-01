@@ -1,8 +1,8 @@
 {
-  "name": "solidity-by-example",
+  "name": "ajna-by-example",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://solidity-by-example.org",
+  "homepage": "https://ajna-by-example.org",
   "scripts": {
     "start": "vite",
     "preview": "vite preview",
@@ -13,7 +13,7 @@
     "copy-index": "ts-node scripts/build.ts",
     "copy-index-to-404": "cp build/index.html build/404.html",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -b main -d build",
     "md-to-react": "node scripts/md-to-react.js",
     "lint": "prettier --write src",
     "reactify": "find src/pages -type d -not -path \"*/__snapshots__\" -exec npx ts-node --project ./scripts/tsconfig.json scripts/md-to-react.ts {} \\;",
