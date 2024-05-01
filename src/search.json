@@ -1,0 +1,8 @@
+{
+  "pool": ["/deploy"],
+  "deploy": ["/deploy"],
+  "init": ["/deploy"],
+  "create": ["/deploy"],
+  "pair": ["/deploy"],
+  "factory": ["/deploy"]
+}

@@ -1,0 +1,11 @@
+ERC20PoolFactory _poolFactory = IERC20PoolFactory(_ajna);
+
+address _collateral   = address(); // WETH
+address _quote        = address(); // DAI
+uint256 _interestRate = 0.05 * 1e18; // 0.05% interest rate
+
+_poolFactory.deployPool({
+    collateral:   _collateral,
+    quote:        _quote,
+    interestRate: _interestRate
+});

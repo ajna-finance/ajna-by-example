@@ -1,0 +1,13 @@
+.component {
+  width: 100%;
+  max-width: 1000px;
+}
+.content {
+  margin: 15px 10px 15px 10px;
+}
+.prevNext {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

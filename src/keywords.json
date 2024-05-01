@@ -1,0 +1,3 @@
+{
+  "/deploy": ["pool", "deploy", "init", "create", "pair", "factory"]
+}
