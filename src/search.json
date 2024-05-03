@@ -1,8 +1,11 @@
 {
-  "pool": ["/deploy"],
-  "deploy": ["/deploy"],
-  "init": ["/deploy"],
-  "create": ["/deploy"],
-  "pair": ["/deploy"],
-  "factory": ["/deploy"]
+  "pool": ["/deploy_subset", "/deploy_collection", "/deploy"],
+  "subset": ["/deploy_subset"],
+  "ERC721": ["/deploy_subset", "/deploy_collection"],
+  "deploy": ["/deploy_subset", "/deploy_collection", "/deploy"],
+  "init": ["/deploy_subset", "/deploy_collection", "/deploy"],
+  "create": ["/deploy_subset", "/deploy_collection", "/deploy"],
+  "pair": ["/deploy_subset", "/deploy_collection", "/deploy"],
+  "factory": ["/deploy_subset", "/deploy_collection", "/deploy"],
+  "collection": ["/deploy_collection"]
 }

@@ -15,6 +15,14 @@ export const SOL_ROUTES: Route[] = [
     path: "deploy",
     title: "Deploy Pool",
   },
+  {
+    path: "deploycollection",
+    title: "Deploy Collection Pool",
+  },
+  {
+    path: "deploysubset",
+    title: "Deploy Subset Pool",
+  },
 ]
 
 export const TEST_ROUTES: Route[] = []

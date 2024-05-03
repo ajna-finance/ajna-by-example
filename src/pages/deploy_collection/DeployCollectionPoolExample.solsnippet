@@ -1,0 +1,14 @@
+ERC721PoolFactory _poolFactory = IERC721PoolFactory(_ajna);
+
+address _collateral   = address(); // WETH
+address _quote        = address(); // DAI
+uint256 _interestRate = 0.05 * 1e18; // 0.05% interest rate
+
+uint256[] memory _tokenIds; // intentionally empty
+
+_poolFactory.deployPool({
+    collateral:   _collateral,
+    quote:        _quote,
+    tokenIds_:    _tokenIds,
+    interestRate: _interestRate
+});

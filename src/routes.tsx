@@ -1,4 +1,6 @@
 import component_deploy from "./pages/deploy"
+import component_deploy_collection from "./pages/deploy_collection"
+import component_deploy_subset from "./pages/deploy_subset"
 import component_ from "./pages"
 
 interface Path {
@@ -21,6 +23,14 @@ const routes: Route[] = [
   {
     path: "/deploy",
     component: component_deploy,
+  },
+  {
+    path: "/deploycollection",
+    component: component_deploy_collection,
+  },
+  {
+    path: "/deploysubset",
+    component: component_deploy_subset,
   },
   {
     path: "",

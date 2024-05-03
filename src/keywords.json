@@ -1,3 +1,23 @@
 {
+  "/deploy_subset": [
+    "pool",
+    "subset",
+    "ERC721",
+    "deploy",
+    "init",
+    "create",
+    "pair",
+    "factory"
+  ],
+  "/deploy_collection": [
+    "pool",
+    "collection",
+    "ERC721",
+    "deploy",
+    "init",
+    "create",
+    "pair",
+    "factory"
+  ],
   "/deploy": ["pool", "deploy", "init", "create", "pair", "factory"]
 }
