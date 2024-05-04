@@ -1,5 +1,8 @@
 {
-  "/deploy_subset": [
+  "/lend/move-quote": ["move", "lend", "earn", "quote", "token", "interest", "rate"],
+  "/lend/add-quote": ["add", "lend", "earn", "quote", "token", "interest", "rate"],
+  "/lend/add-collateral": ["add", "lend", "earn", "quote", "token", "interest", "rate"],
+  "/deploy-subset": [
     "pool",
     "subset",
     "ERC721",
@@ -9,7 +12,7 @@
     "pair",
     "factory"
   ],
-  "/deploy_collection": [
+  "/deploy-collection": [
     "pool",
     "collection",
     "ERC721",

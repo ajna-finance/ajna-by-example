@@ -1,0 +1,17 @@
+import { ERC20Pool } from 'ajna-core/src/ERC20Pool.sol';
+
+address _wstethDaiPool = '0xcd261cd365389a58e6467bb8a83a9e437864e8e5';
+
+ERC20Pool _pool = ERC20Pool(_wstethDaiPool);
+
+uint256 _amount = 0.001 * 1e18;
+uint256 _index  = 2240;
+uint256 _expiry = block.timestamp + 15;
+
+_pool.addCollateral({
+    amount: _amount,
+    index:  _index,
+    expiry: _expiry
+});
+
+

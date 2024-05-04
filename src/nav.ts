@@ -16,12 +16,27 @@ export const SOL_ROUTES: Route[] = [
     title: "Deploy Pool",
   },
   {
-    path: "deploycollection",
+    path: "deploy-collection",
     title: "Deploy Collection Pool",
   },
   {
-    path: "deploysubset",
+    path: "deploy-subset",
     title: "Deploy Subset Pool",
+  },
+]
+
+export const LEND_ROUTES: Route[] = [
+  {
+    path: "add-quote",
+    title: "Add Quote",
+  },
+  {
+    path: "add-collateral",
+    title: "Add Collateral",
+  },
+  {
+    path: "move-quote",
+    title: "Move Quote",
   },
 ]
 
@@ -35,6 +50,13 @@ export const ROUTES_BY_CATEGORY = [
     routes: SOL_ROUTES.map((route) => ({
       ...route,
       path: `/${route.path}`,
+    })),
+  },
+  {
+    title: "Lend",
+    routes: LEND_ROUTES.map((route) => ({
+      ...route,
+      path: `/lend/${route.path}`,
     })),
   },
   // {

@@ -1,0 +1,17 @@
+import { Pool } from 'ajna-core/src/base/Pool.sol';
+
+address _wstethDaiPool = '0xcd261cd365389a58e6467bb8a83a9e437864e8e5';
+
+uint256 _maxAmount = 100.0 * 1e18;
+uint256 _fromIndex = 2900;
+uint256 _toIndex   = 3000; // since indexes are the inverse to price, the deposit is moving up
+uint256 _expiry    = block.timestamp + 15;
+
+Pool _pool = Pool(_wstethDaiPool);
+
+_pool.moveQuoteToken({
+    maxAmount: _maxAmount,
+    fromIndex: _fromIndex,
+    toIndex:   _toIndex,
+    expiry:    _expiry
+});

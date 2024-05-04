@@ -1,11 +1,19 @@
 {
-  "pool": ["/deploy_subset", "/deploy_collection", "/deploy"],
-  "subset": ["/deploy_subset"],
-  "ERC721": ["/deploy_subset", "/deploy_collection"],
-  "deploy": ["/deploy_subset", "/deploy_collection", "/deploy"],
-  "init": ["/deploy_subset", "/deploy_collection", "/deploy"],
-  "create": ["/deploy_subset", "/deploy_collection", "/deploy"],
-  "pair": ["/deploy_subset", "/deploy_collection", "/deploy"],
-  "factory": ["/deploy_subset", "/deploy_collection", "/deploy"],
-  "collection": ["/deploy_collection"]
+  "move": ["/lend/move-quote"],
+  "lend": ["/lend/move-quote", "/lend/add-quote", "/lend/add-collateral"],
+  "earn": ["/lend/move-quote", "/lend/add-quote", "/lend/add-collateral"],
+  "quote": ["/lend/move-quote", "/lend/add-quote", "/lend/add-collateral"],
+  "token": ["/lend/move-quote", "/lend/add-quote", "/lend/add-collateral"],
+  "interest": ["/lend/move-quote", "/lend/add-quote", "/lend/add-collateral"],
+  "rate": ["/lend/move-quote", "/lend/add-quote", "/lend/add-collateral"],
+  "add": ["/lend/add-quote", "/lend/add-collateral"],
+  "pool": ["/deploy-subset", "/deploy-collection", "/deploy"],
+  "subset": ["/deploy-subset"],
+  "ERC721": ["/deploy-subset", "/deploy-collection"],
+  "deploy": ["/deploy-subset", "/deploy-collection", "/deploy"],
+  "init": ["/deploy-subset", "/deploy-collection", "/deploy"],
+  "create": ["/deploy-subset", "/deploy-collection", "/deploy"],
+  "pair": ["/deploy-subset", "/deploy-collection", "/deploy"],
+  "factory": ["/deploy-subset", "/deploy-collection", "/deploy"],
+  "collection": ["/deploy-collection"]
 }

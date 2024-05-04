@@ -1,0 +1,20 @@
+import { ERC721Pool } from 'ajna-core/src/ERC721Pool.sol';
+
+address _wstethDaiPool = '0xcd261cd365389a58e6467bb8a83a9e437864e8e5';
+
+ERC721Pool _pool = ERC721Pool(_wstethDaiPool);
+
+uint256 _index  = 2240;
+uint256 _expiry = block.timestamp + 15;
+uint256[] memory _tokenIds = new uint256[](3);
+
+// subset pool accepts ERC721 tokens w/ ids: 1, 2, 3
+_tokenIds[0] = 1;
+_tokenIds[1] = 2;
+_tokenIds[2] = 3;
+
+_pool.addCollateral({
+    tokenIds_: _tokenIds,
+    index:     _index,
+    expiry:    _expiry
+});

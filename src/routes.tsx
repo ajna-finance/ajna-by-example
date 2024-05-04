@@ -1,6 +1,9 @@
 import component_deploy from "./pages/deploy"
-import component_deploy_collection from "./pages/deploy_collection"
-import component_deploy_subset from "./pages/deploy_subset"
+import component_deploy_collection from "./pages/deploy-collection"
+import component_deploy_subset from "./pages/deploy-subset"
+import component_lend_add_collateral from "./pages/lend/add-collateral"
+import component_lend_add_quote from "./pages/lend/add-quote"
+import component_lend_move_quote from "./pages/lend/move-quote"
 import component_ from "./pages"
 
 interface Path {
@@ -25,12 +28,24 @@ const routes: Route[] = [
     component: component_deploy,
   },
   {
-    path: "/deploycollection",
+    path: "/deploy-collection",
     component: component_deploy_collection,
   },
   {
-    path: "/deploysubset",
+    path: "/deploy-subset",
     component: component_deploy_subset,
+  },
+  {
+    path: "/lend/add-collateral",
+    component: component_lend_add_collateral,
+  },
+  {
+    path: "/lend/add-quote",
+    component: component_lend_add_quote,
+  },
+  {
+    path: "/lend/move-quote",
+    component: component_lend_move_quote,
   },
   {
     path: "",
