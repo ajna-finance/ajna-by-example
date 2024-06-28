@@ -54,5 +54,16 @@ Generate react, register routes, and rebuild search index
 ```bash
 npm run generate
 ```
-
 Update the [changelog](src/pages/index.tsx#L11)
+
+
+## Deploying (done by admin)
+
+Once PR is merged into `main` branch admin will need to run:
+
+```bash
+npm run deploy
+```
+on their local machine. This will update the `gh-pages` branch with latest changes.
+
+PS: Sometimes the url `ajna-by-example.org` will need to be updated in the github page settings after a redeployment.
