@@ -1,5 +1,5 @@
 ---
-title: Add Quote Token
+title: Add Collateral Token
 version: 0.8.18
 description: Adding quote token to a pool in Ajna
 keywords: [add, lend, earn, quote, token, interest, rate]

@@ -1,6 +1,6 @@
 // metadata
 export const version = "0.8.18"
-export const title = "Add Quote Token"
+export const title = "Add Collateral Token"
 export const description = "Adding quote token to a pool in Ajna"
 
 export const keywords = ["add", "lend", "earn", "quote", "token", "interest", "rate"]
