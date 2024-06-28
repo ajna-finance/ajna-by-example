@@ -38,6 +38,14 @@ export const LEND_ROUTES: Route[] = [
     path: "move-quote",
     title: "Move Quote",
   },
+  {
+    path: "lender-info",
+    title: "Lender Info",
+  },
+  {
+    path: "remove-quote",
+    title: "Remove Quote",
+  },
 ]
 
 export const TEST_ROUTES: Route[] = []

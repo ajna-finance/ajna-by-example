@@ -8,7 +8,7 @@ import styles from "./index.module.css"
 import youTube from "../components/youtube.png"
 import { ROUTES, ROUTES_BY_CATEGORY, TRANSLATIONS } from "../nav"
 
-const UPDATES = ["2024/4/30 - Initial Snippets", "2024/5/4 - Added Lender Actions"]
+const UPDATES = ["2024/4/30 - Initial Snippets", "2024/5/4 - Added Lender Actions", "2024/6/28 - Added lenderInfo and removeQuoteToken"]
 
 export default function HomePage() {
   const [query, setQuery] = useState("")

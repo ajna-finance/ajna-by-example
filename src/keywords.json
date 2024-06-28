@@ -1,7 +1,53 @@
 {
-  "/lend/move-quote": ["move", "lend", "earn", "quote", "token", "interest", "rate"],
-  "/lend/add-quote": ["add", "lend", "earn", "quote", "token", "interest", "rate"],
-  "/lend/add-collateral": ["add", "lend", "earn", "quote", "token", "interest", "rate"],
+  "/lend/remove-quote": [
+    "remove",
+    "lend",
+    "earn",
+    "quote",
+    "token",
+    "exit",
+    "withdraw"
+  ],
+  "/lend/move-quote": [
+    "move",
+    "lend",
+    "earn",
+    "quote",
+    "token",
+    "interest",
+    "rate"
+  ],
+  "/lend/lender-info": [
+    "add",
+    "lend",
+    "earn",
+    "quote",
+    "collateral",
+    "get",
+    "lpBalance",
+    "bucket",
+    "timestamp",
+    "info",
+    "balance"
+  ],
+  "/lend/add-quote": [
+    "add",
+    "lend",
+    "earn",
+    "quote",
+    "token",
+    "interest",
+    "rate"
+  ],
+  "/lend/add-collateral": [
+    "add",
+    "lend",
+    "earn",
+    "quote",
+    "token",
+    "interest",
+    "rate"
+  ],
   "/deploy-subset": [
     "pool",
     "subset",
@@ -22,5 +68,12 @@
     "pair",
     "factory"
   ],
-  "/deploy": ["pool", "deploy", "init", "create", "pair", "factory"]
+  "/deploy": [
+    "pool",
+    "deploy",
+    "init",
+    "create",
+    "pair",
+    "factory"
+  ]
 }

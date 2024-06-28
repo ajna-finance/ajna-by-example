@@ -1,0 +1,37 @@
+import { Pool } from 'ajna-core/src/base/Pool.sol';
+import { PoolInfoUtils } from 'ajna-core/src/PoolInfoUtils.sol';
+
+address _wstethDaiPool = '0xcd261cd365389a58e6467bb8a83a9e437864e8e5';
+
+Pool _pool = Pool(_wstethDaiPool);
+PoolInfoUtils _poolInfo = new PoolInfoUtils();
+
+uint256 _amount = 100.0 * 1e18;
+uint256 _index  = 2900;
+uint256 _expiry = block.timestamp + 15;
+
+(uint256 lp, uint256 addedAmount) = _pool.addQuoteToken({
+    amount: _amount,
+    index:  _index,
+    expiry: _expiry
+});
+
+(uint256 _lp, uint256 timestamp) = _pool.LenderInfo({
+    index: _index,
+    lender: address(this)
+});
+
+(uint256 _quoteAmount) = _poolInfo.lpToQuoteTokens({
+        ajnaPool: address(_pool),
+        lp: _lp,
+        index: _index
+})
+
+(uint256 removedAmount, uint256 lpRedeemed) = _pool.removeQuoteToken({
+    amount: _quoteAmount,
+    index:  _index
+});
+
+
+
+
