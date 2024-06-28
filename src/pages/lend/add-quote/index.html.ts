@@ -3,17 +3,25 @@ export const version = "0.8.18"
 export const title = "Add Quote Token"
 export const description = "Adding quote token to a pool in Ajna"
 
-export const keywords = ["add", "lend", "earn", "quote", "token", "interest", "rate"]
+export const keywords = [
+    "add",
+    "lend",
+    "earn",
+    "quote",
+    "token",
+    "interest",
+    "rate",
+]
 
 export const codes = [
-  {
-    fileName: "AddQuoteToken.sol",
-    code: "Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC4xODsKCmltcG9ydCB7IFBvb2wgfSBmcm9tICdham5hLWNvcmUvc3JjL2Jhc2UvUG9vbC5zb2wnOwoKY29udHJhY3QgQWRkTGlxdWlkaXR5IHsKCiAgICBhZGRyZXNzIF93c3RldGhEYWlQb29sID0gJzB4Y2QyNjFjZDM2NTM4OWE1OGU2NDY3YmI4YTgzYTllNDM3ODY0ZThlNSc7CgoKICAgIGZ1bmN0aW9uIGFkZExpcXVpZGl0eSgKICAgICAgICB1aW50MjU2IF9hbW91bnQsCiAgICAgICAgdWludDI1NiBfaW5kZXgsCiAgICAgICAgdWludDI1NiBfZXhwaXJ5CiAgICApIGV4dGVybmFsIHsKCiAgICAgICAgUG9vbCBfcG9vbCA9IFBvb2woX3dzdGV0aERhaVBvb2wpOwoKICAgICAgICBfcG9vbC5hZGRRdW90ZVRva2VuKHsKICAgICAgICAgICAgYW1vdW50OiBfYW1vdW50LAogICAgICAgICAgICBpbmRleDogIF9pbmRleCwKICAgICAgICAgICAgZXhwaXJ5OiBfZXhwaXJ5CiAgICAgICAgfSk7CiAgICB9Cn0=",
-  },
-  {
-    fileName: "AddQuoteTokenExample.sol",
-    code: "aW1wb3J0IHsgUG9vbCB9IGZyb20gJ2FqbmEtY29yZS9zcmMvYmFzZS9Qb29sLnNvbCc7CgphZGRyZXNzIF93c3RldGhEYWlQb29sID0gJzB4Y2QyNjFjZDM2NTM4OWE1OGU2NDY3YmI4YTgzYTllNDM3ODY0ZThlNSc7CgpQb29sIF9wb29sID0gUG9vbChfd3N0ZXRoRGFpUG9vbCk7Cgp1aW50MjU2IF9hbW91bnQgPSAxMDAuMCAqIDFlMTg7CnVpbnQyNTYgX2luZGV4ICA9IDI5MDA7CnVpbnQyNTYgX2V4cGlyeSA9IGJsb2NrLnRpbWVzdGFtcCArIDE1OwoKX3Bvb2wuYWRkUXVvdGVUb2tlbih7CiAgICBhbW91bnQ6IF9hbW91bnQsCiAgICBpbmRleDogIF9pbmRleCwKICAgIGV4cGlyeTogX2V4cGlyeQp9KTsKCgo=",
-  },
+    {
+        fileName: "AddQuoteToken.sol",
+        code: "Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC4xODsKCmltcG9ydCB7IFBvb2wgfSBmcm9tICdham5hLWNvcmUvc3JjL2Jhc2UvUG9vbC5zb2wnOwoKY29udHJhY3QgQWRkTGlxdWlkaXR5IHsKCiAgICBhZGRyZXNzIF93c3RldGhEYWlQb29sID0gJzB4Y2QyNjFjZDM2NTM4OWE1OGU2NDY3YmI4YTgzYTllNDM3ODY0ZThlNSc7CgoKICAgIGZ1bmN0aW9uIGFkZExpcXVpZGl0eSgKICAgICAgICB1aW50MjU2IF9hbW91bnQsCiAgICAgICAgdWludDI1NiBfaW5kZXgsCiAgICAgICAgdWludDI1NiBfZXhwaXJ5CiAgICApIGV4dGVybmFsIHsKCiAgICAgICAgUG9vbCBfcG9vbCA9IFBvb2woX3dzdGV0aERhaVBvb2wpOwoKICAgICAgICBfcG9vbC5hZGRRdW90ZVRva2VuKHsKICAgICAgICAgICAgYW1vdW50OiBfYW1vdW50LAogICAgICAgICAgICBpbmRleDogIF9pbmRleCwKICAgICAgICAgICAgZXhwaXJ5OiBfZXhwaXJ5CiAgICAgICAgfSk7CiAgICB9Cn0=",
+    },
+    {
+        fileName: "AddQuoteTokenExample.sol",
+        code: "aW1wb3J0IHsgUG9vbCB9IGZyb20gJ2FqbmEtY29yZS9zcmMvYmFzZS9Qb29sLnNvbCc7CgphZGRyZXNzIF93c3RldGhEYWlQb29sID0gJzB4Y2QyNjFjZDM2NTM4OWE1OGU2NDY3YmI4YTgzYTllNDM3ODY0ZThlNSc7CgpQb29sIF9wb29sID0gUG9vbChfd3N0ZXRoRGFpUG9vbCk7Cgp1aW50MjU2IF9hbW91bnQgPSAxMDAuMCAqIDFlMTg7CnVpbnQyNTYgX2luZGV4ICA9IDI5MDA7CnVpbnQyNTYgX2V4cGlyeSA9IGJsb2NrLnRpbWVzdGFtcCArIDE1OwoKX3Bvb2wuYWRkUXVvdGVUb2tlbih7CiAgICBhbW91bnQ6IF9hbW91bnQsCiAgICBpbmRleDogIF9pbmRleCwKICAgIGV4cGlyeTogX2V4cGlyeQp9KTsKCgo=",
+    },
 ]
 
 const html = `<ul>
